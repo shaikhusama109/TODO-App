@@ -3,7 +3,9 @@ list = document.getElementById("list");
 function add(){
     var val = document.getElementById("val") 
     var li = document.createElement('li')
+        li.setAttribute("class", "li")
     var li_text = document.createTextNode(val.value)
+    
    
     // Delete Button
     var deleteBtn = document.createElement('button')

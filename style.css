@@ -1,5 +1,18 @@
 .main{
-    /* color: white;
-    background-color: black; */
+    color: white;
+    background-color: black;
     text-align: center;
+    padding: 5px 5px;
+    justify-content: space-between;
+}
+.button{
+    border-radius: 4px;
+    margin: 4px 3px;
+
+}
+.li{
+    list-style:none ;
+    align-items: center;
+    justify-content: space-between;
+    
 }
